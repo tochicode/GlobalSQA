@@ -4,7 +4,8 @@
   "description": "End of Cypress project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress-local": "npx cypress run -b chrome --headless",
+    "ci-test": "npx cypress run"
   },
   "author": "",
   "license": "ISC",
